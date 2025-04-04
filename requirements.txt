@@ -1,4 +1,4 @@
-pip intall python3
+pip install python3
 requests
 colorama
 random
