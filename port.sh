@@ -4,6 +4,7 @@ if ! command -v ssh > /dev/null; then
     exit 1
 fi
 
+
 echo -e "\e[1;32m"
 printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
 echo " ____  ____  ____   ___  ____  ____  ____   __"
